@@ -13,3 +13,11 @@ extern int fun (int x, int y);
 #else
 代码段2
 #endif
+
+
+#if 1/0
+
+#else
+  
+#endif  
+  
