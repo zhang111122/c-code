@@ -20,4 +20,10 @@ extern int fun (int x, int y);
 #else
   
 #endif  
+  //用法 相当于一个开关
+开始定义aaa为0
+  则代码被注释
+定义aaa为1
+  则代码启动
+  
   
