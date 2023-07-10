@@ -1,0 +1,15 @@
+在c语言中没有字符串这个类型
+“str”就是一个字符串
+字符串的第一个字符的地址是字符串的地址
+
+char name[20];
+	scanf("%s", name);
+	printf("%s", name);
+将字符串存入name数组时不需要＋&
+打印时也一样
+
+
+字符指针数组的应用
+char* name[5]={"bejiing","shanghai"};
+printf("%s",name[i]);
+可以打印所有字符串
